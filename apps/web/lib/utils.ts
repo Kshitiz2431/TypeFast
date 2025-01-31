@@ -1,7 +1,7 @@
 import { clsx, type ClassValue } from "clsx";
 import { twMerge } from "tailwind-merge";
 import { generate } from "random-words";
-import { Test } from "@prisma/client";
+import { Test } from "../common/src/types";
 import { getVerificationTokenByEmail } from "@/db/token";
 import prisma from "../DB_prisma/src/index";
 import { v4 as uuidv4 } from "uuid";

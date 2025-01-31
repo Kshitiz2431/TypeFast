@@ -11,6 +11,17 @@ export type Room = {
   createdAt: Date;
   updatedAt: Date;
 };
+export type Test = {
+  id: string;
+  wpm: number;
+  accuracy: number;
+  time: number;
+  mode: string;
+  modeOption: number;
+  userId: string;
+  createdAt: Date;
+  updatedAt: Date;
+}
 
 export type ModesProps = {
   mode: string;
