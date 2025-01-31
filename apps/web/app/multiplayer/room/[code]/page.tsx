@@ -2,7 +2,7 @@
 
 import { useEffect, useState, use, useCallback } from "react";
 import { useSession } from "next-auth/react";
-import { Room as RoomType } from "@prisma/client";
+import { Room as RoomType } from "../../../../common/src/types";
 import { motion } from "framer-motion";
 import { Member } from "../../../../common/src/types";
 import Header from "@/components/multiplayer/header";

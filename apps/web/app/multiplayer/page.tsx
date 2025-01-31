@@ -6,7 +6,7 @@ import { Hash, LoaderPinwheel } from "lucide-react";
 import CreateRoom from "@/components/multiplayer/create-room";
 import JoinRoom from "@/components/multiplayer/join-room";
 import PublicRooms from "@/components/multiplayer/public-rooms";
-import { Room } from "@prisma/client";
+import { Room } from "../../common/src/types";
 import {
   Card,
   CardContent,

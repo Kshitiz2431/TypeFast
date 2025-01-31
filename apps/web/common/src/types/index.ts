@@ -1,7 +1,7 @@
 import { Dispatch, JSX, ReactNode, SetStateAction } from "react";
 import WebSocket from "ws";
 
-type Room = {
+export type Room = {
   mode: string;
   modeOption: number;
   name: string;
