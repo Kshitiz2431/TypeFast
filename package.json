@@ -3,6 +3,7 @@
   "private": true,
   "scripts": {
     "build": "cd apps/web && next build",
+    "prisma":"cd apps/web/DB_prisma npx prisma migrate dev && npx prisma generate",
     "start": "cd apps/web && next start",
     "dev": "turbo dev",
     "lint": "turbo lint",
