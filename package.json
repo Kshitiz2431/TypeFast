@@ -2,7 +2,7 @@
   "name": "TypeFast",
   "private": true,
   "scripts": {
-    "build": "cd apps/web/DB_prisma && npx prisma migrate deploy && npx prisma generate && cd ../ && next build",
+    "build": "cd apps/web/DB_prisma && prisma migrate deploy && prisma generate && cd ../ && next build",
     "start": "cd apps/web && next start",
     "dev": "turbo dev",
     "lint": "turbo lint",
