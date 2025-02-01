@@ -3,6 +3,7 @@
   "private": true,
   "scripts": {
     "build": "cd apps/web/DB_prisma && prisma migrate deploy && prisma generate && cd ../ && next build",
+    "prisma":"cd apps/web/DB_prisma && prisma migrate deploy && prisma generate",
     "start": "cd apps/web && next start",
     "dev": "turbo dev",
     "lint": "turbo lint",
