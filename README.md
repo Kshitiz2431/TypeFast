@@ -24,12 +24,9 @@ A modern, minimalist typing speed test application built with Next.js.
 - [Ioredis](https://www.npmjs.com/package/ioredis/) Redis
 - [Prisma](https://www.prisma.io/) – ORM
 - [Auth.js](https://authjs.dev/) – Authentication
-- [Turborepo](https://turbo.build/repo) – Monorepo
 - [Zustand](https://zustand-demo.pmnd.rs/) – State Management
 - [Resend](https://resend.com/) – Emails
-- [Docker](https://www.docker.com/) – Containerization
 - [PostgreSQL](https://neon.tech/) – Database
-- [Kubernetes](https://kubernetes.io/) Deployments
 
 ## Getting Started 🌟
 
